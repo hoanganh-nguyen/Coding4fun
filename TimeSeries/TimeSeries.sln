@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSeries.Core", "TimeSeri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSeries.Core.Tests", "TimeSeries.Core.Tests\TimeSeries.Core.Tests.csproj", "{94E86CBA-DF2A-4679-A144-83F95344E3CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSeries.UI", "TimeSeries.UI\TimeSeries.UI.csproj", "{86420198-AAF7-4A28-B21D-99D7DA714C95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSeries.Desktop", "TimeSeries.UI\TimeSeries.Desktop.csproj", "{86420198-AAF7-4A28-B21D-99D7DA714C95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

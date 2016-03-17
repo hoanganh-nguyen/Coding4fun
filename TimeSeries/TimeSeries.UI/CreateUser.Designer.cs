@@ -53,7 +53,7 @@
             this.btSave.Location = new System.Drawing.Point(326, 204);
             this.btSave.Name = "btSave";
             this.btSave.Size = new System.Drawing.Size(92, 29);
-            this.btSave.TabIndex = 0;
+            this.btSave.TabIndex = 8;
             this.btSave.Text = "&Save";
             this.btSave.UseVisualStyleBackColor = true;
             this.btSave.Click += new System.EventHandler(this.btSave_Click);
@@ -82,7 +82,7 @@
             this.txtEmail.Location = new System.Drawing.Point(98, 137);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(261, 20);
-            this.txtEmail.TabIndex = 9;
+            this.txtEmail.TabIndex = 5;
             this.txtEmail.Validating += new System.ComponentModel.CancelEventHandler(this.txtEmail_Validating);
             // 
             // label5
@@ -99,7 +99,7 @@
             this.txtLastName.Location = new System.Drawing.Point(98, 104);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(261, 20);
-            this.txtLastName.TabIndex = 7;
+            this.txtLastName.TabIndex = 4;
             this.txtLastName.Validating += new System.ComponentModel.CancelEventHandler(this.txtLastName_Validating);
             // 
             // label4
@@ -117,7 +117,7 @@
             this.txtPwd.Name = "txtPwd";
             this.txtPwd.PasswordChar = '*';
             this.txtPwd.Size = new System.Drawing.Size(261, 20);
-            this.txtPwd.TabIndex = 5;
+            this.txtPwd.TabIndex = 2;
             this.txtPwd.Validating += new System.ComponentModel.CancelEventHandler(this.txtPwd_Validating);
             // 
             // label3

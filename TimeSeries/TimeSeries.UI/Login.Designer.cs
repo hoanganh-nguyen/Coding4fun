@@ -44,7 +44,7 @@
             this.button1.Location = new System.Drawing.Point(263, 115);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
+            this.button1.TabIndex = 5;
             this.button1.Text = "&Login";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -63,7 +63,7 @@
             this.txtUserName.Location = new System.Drawing.Point(100, 23);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(238, 20);
-            this.txtUserName.TabIndex = 2;
+            this.txtUserName.TabIndex = 1;
             this.txtUserName.Validated += new System.EventHandler(this.txtUserName_Validated);
             // 
             // txtPwd
