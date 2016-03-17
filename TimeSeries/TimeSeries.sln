@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSeries.Core", "TimeSeries\TimeSeries.Core.csproj", "{4E24589E-B135-4F2A-B435-B5E4A29D299D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSeries.Core.Tests", "TimeSeries.Core.Tests\TimeSeries.Core.Tests.csproj", "{94E86CBA-DF2A-4679-A144-83F95344E3CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSeries.UI", "TimeSeries.UI\TimeSeries.UI.csproj", "{86420198-AAF7-4A28-B21D-99D7DA714C95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E24589E-B135-4F2A-B435-B5E4A29D299D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E24589E-B135-4F2A-B435-B5E4A29D299D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E24589E-B135-4F2A-B435-B5E4A29D299D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E24589E-B135-4F2A-B435-B5E4A29D299D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94E86CBA-DF2A-4679-A144-83F95344E3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E86CBA-DF2A-4679-A144-83F95344E3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E86CBA-DF2A-4679-A144-83F95344E3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E86CBA-DF2A-4679-A144-83F95344E3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86420198-AAF7-4A28-B21D-99D7DA714C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86420198-AAF7-4A28-B21D-99D7DA714C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86420198-AAF7-4A28-B21D-99D7DA714C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86420198-AAF7-4A28-B21D-99D7DA714C95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

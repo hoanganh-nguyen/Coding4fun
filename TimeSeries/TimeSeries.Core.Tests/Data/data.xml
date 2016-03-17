@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data Asset="AbcXyz-123">
+  <Price Date="20160101" Value="17.0007"/>
+  <Price Date="20160104" Value="17.1007"/>
+  <Price Date="20160103" Value="17.0070"/>
+  <Price Date="20160105" Value="17.2107"/>
+  <Price Date="20160102" Value="17.0011"/>
+</Data>
