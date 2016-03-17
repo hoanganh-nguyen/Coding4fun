@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using TimeSeries.Core.DataAccess;
 using TimeSeries.Core.Helper;
 using TimeSeries.Core.Model;
+using TimeSeries.Core.Security;
 
 namespace TimeSeries.UI
 {
@@ -12,11 +13,13 @@ namespace TimeSeries.UI
     {
         PasswordValidator _pwdValidator;
         EmailValidator _emailValidator;
+        ICrypter _cryptage;
         public CreateUser()
         {
             InitializeComponent();
             _pwdValidator = new PasswordValidator();
             _emailValidator = new EmailValidator();
+            _cryptage = new Crypter();
 
         }
 
@@ -85,7 +88,7 @@ namespace TimeSeries.UI
             {
                 User user = new User();
                 user.Login = txtLogin.Text;
-                user.Password = txtLogin.Text;
+                user.Password = _cryptage.Encrypt( txtPwd.Text);
                 user.FirstName = txtFirstName.Text;
                 user.LastName = txtLastName.Text;
                 user.Email = txtEmail.Text;
@@ -95,6 +98,11 @@ namespace TimeSeries.UI
                 {
                     db.Users.Add(user);
                     db.SaveChanges();
+                }
+
+                if(MessageBox.Show("Do you want create another user?", "Creation user", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+                {
+                    this.Close();
                 }
             }
 

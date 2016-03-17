@@ -1,1 +1,0 @@
-C:\Users\Yen Anh\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries.Core.Test\obj\Debug\TimeSeries.Core.Test.csprojResolveAssemblyReference.cache

@@ -110,7 +110,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="packages.config" />
-    <None Include="Properties\DataSources\TimeSeries.Core.Model.DataAsset.datasource" />
     <None Include="Properties\DataSources\TimeSeries.Core.Model.Price.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

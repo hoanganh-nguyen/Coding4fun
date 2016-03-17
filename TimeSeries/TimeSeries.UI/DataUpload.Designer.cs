@@ -39,20 +39,13 @@
             this.lbAsset = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btSave = new System.Windows.Forms.Button();
+            this.priceBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Value = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.priceBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.valueDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.assetDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataAssetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataAssetBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.priceBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataAssetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataAssetBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -104,10 +97,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Date,
-            this.Value,
-            this.dateDataGridViewTextBoxColumn,
-            this.valueDataGridViewTextBoxColumn,
-            this.assetDataGridViewTextBoxColumn});
+            this.Value});
             this.dataGridView1.DataSource = this.priceBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(10, 49);
             this.dataGridView1.Name = "dataGridView1";
@@ -142,6 +132,10 @@
             this.btSave.UseVisualStyleBackColor = true;
             this.btSave.Click += new System.EventHandler(this.btSave_Click);
             // 
+            // priceBindingSource
+            // 
+            this.priceBindingSource.DataSource = typeof(TimeSeries.Core.Model.Price);
+            // 
             // Date
             // 
             this.Date.DataPropertyName = "Date";
@@ -166,39 +160,6 @@
             this.Value.ReadOnly = true;
             this.Value.Width = 150;
             // 
-            // priceBindingSource
-            // 
-            this.priceBindingSource.DataSource = typeof(TimeSeries.Core.Model.Price);
-            // 
-            // dateDataGridViewTextBoxColumn
-            // 
-            this.dateDataGridViewTextBoxColumn.DataPropertyName = "Date";
-            this.dateDataGridViewTextBoxColumn.HeaderText = "Date";
-            this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
-            this.dateDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // valueDataGridViewTextBoxColumn
-            // 
-            this.valueDataGridViewTextBoxColumn.DataPropertyName = "Value";
-            this.valueDataGridViewTextBoxColumn.HeaderText = "Value";
-            this.valueDataGridViewTextBoxColumn.Name = "valueDataGridViewTextBoxColumn";
-            this.valueDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // assetDataGridViewTextBoxColumn
-            // 
-            this.assetDataGridViewTextBoxColumn.DataPropertyName = "Asset";
-            this.assetDataGridViewTextBoxColumn.HeaderText = "Asset";
-            this.assetDataGridViewTextBoxColumn.Name = "assetDataGridViewTextBoxColumn";
-            this.assetDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // dataAssetBindingSource
-            // 
-            this.dataAssetBindingSource.DataSource = typeof(TimeSeries.Core.Model.DataAsset);
-            // 
-            // dataAssetBindingSource1
-            // 
-            this.dataAssetBindingSource1.DataSource = typeof(TimeSeries.Core.Model.DataAsset);
-            // 
             // DataUpload
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -215,8 +176,6 @@
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.priceBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataAssetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataAssetBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -231,13 +190,8 @@
         private System.Windows.Forms.Label lbAsset;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.BindingSource dataAssetBindingSource;
-        private System.Windows.Forms.BindingSource dataAssetBindingSource1;
         private System.Windows.Forms.BindingSource priceBindingSource;
         private System.Windows.Forms.DataGridViewTextBoxColumn Date;
         private System.Windows.Forms.DataGridViewTextBoxColumn Value;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn valueDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn assetDataGridViewTextBoxColumn;
     }
 }
