@@ -1,12 +1,11 @@
-C:\Users\Yen Anh\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\bin\Debug\TimeSeries.dll
-C:\Users\Yen Anh\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\bin\Debug\TimeSeries.pdb
-C:\Users\Yen Anh\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\obj\Debug\TimeSeries.Core.csprojResolveAssemblyReference.cache
-C:\Users\Yen Anh\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\obj\Debug\TimeSeries.dll
-C:\Users\Yen Anh\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\obj\Debug\TimeSeries.pdb
-C:\Users\Yen Anh\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\bin\Debug\TimeSeries.dll.config
-C:\Users\Yen Anh\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\bin\Debug\EntityFramework.dll
-C:\Users\Yen Anh\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Yen Anh\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\bin\Debug\EntityFramework.xml
-C:\Users\Yen Anh\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Yen Anh\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\obj\Debug\TimeSeries.Core.Migrations.InitialCreate.resources
-C:\Users\Yen Anh\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\obj\Debug\TimeSeries.Core.csproj.GenerateResource.Cache
+C:\Users\hanguyen\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\bin\Debug\TimeSeries.dll.config
+C:\Users\hanguyen\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\bin\Debug\TimeSeries.dll
+C:\Users\hanguyen\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\bin\Debug\TimeSeries.pdb
+C:\Users\hanguyen\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\bin\Debug\EntityFramework.dll
+C:\Users\hanguyen\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hanguyen\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\bin\Debug\EntityFramework.xml
+C:\Users\hanguyen\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hanguyen\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\obj\Debug\TimeSeries.Core.Migrations.InitialCreate.resources
+C:\Users\hanguyen\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\obj\Debug\TimeSeries.Core.csproj.GenerateResource.Cache
+C:\Users\hanguyen\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\obj\Debug\TimeSeries.dll
+C:\Users\hanguyen\Documents\GitHub\Coding4fun\TimeSeries\TimeSeries\obj\Debug\TimeSeries.pdb

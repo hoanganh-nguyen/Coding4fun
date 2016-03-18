@@ -45,6 +45,7 @@ namespace TimeSeries.Core.Xml
                 {
                     if (!_ignoreError)
                     {
+                        string errorMsg = String.Format("Issue during th parse data from xml.Details: {0}", ex.Message);
                         throw;
                     }
                 }
